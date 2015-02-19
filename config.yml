@@ -1,0 +1,9 @@
+name: "Jekyll Site"
+description: "George's First Jekyll site"
+
+url: localhost:4000	
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
