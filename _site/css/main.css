@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: sans-serif; }
+
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 12px; }
+
+.info-bar {
+  background-color: #0015e3;
+  width: 100%;
+  color: #fff;
+  padding: 5px 0; }
+
+.site-footer {
+  position: fixed;
+  bottom: 0; }

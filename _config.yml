@@ -1,0 +1,12 @@
+# Site settings
+title: Wheathill Golf Club
+email: golf@wheathillgc.co.uk
+description: > # this means to ignore newlines until "baseurl:"
+  Wheathill GC, Somerset, England
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "localhost:4000" # the base hostname & protocol for your site
+twitter_username: wheathillgc
+github_username:  georgehunter
+
+# Build settings
+markdown: kramdown
