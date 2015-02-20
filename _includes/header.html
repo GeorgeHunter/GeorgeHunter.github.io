@@ -1,4 +1,4 @@
-<header class="site-header">
+<header class="header">
 
   <div class="header-contact info-bar">
     <div class="wrap">
@@ -6,23 +6,16 @@
     </div>
   </div>
 
-  <div class="wrap">
-
-  {{ site.url }}
-  {{ site.title }}
-  {{ site.time}}
+  <div class="wrap nav-wrap">
 
     <a class="site-title" href="{{ site.url }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
-
-      <div class="trigger">
         {% for page in site.pages %}
           {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          <a class="nav__item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
-      </div>
     </nav>
 
   </div>

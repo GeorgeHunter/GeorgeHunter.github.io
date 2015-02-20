@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>George Hunter</title>
-    <description>George Hunter&#39;s Website
+    <title>Wheathill Golf Club</title>
+    <description>Wheathill GC, Somerset, England
 </description>
     <link>localhost:4000/</link>
     <atom:link href="localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 Feb 2015 22:45:23 +0000</pubDate>
-    <lastBuildDate>Fri, 20 Feb 2015 22:45:23 +0000</lastBuildDate>
+    <pubDate>Fri, 20 Feb 2015 22:53:43 +0000</pubDate>
+    <lastBuildDate>Fri, 20 Feb 2015 22:53:43 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
