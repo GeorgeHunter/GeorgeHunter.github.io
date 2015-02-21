@@ -4,10 +4,10 @@
     <title>George Hunter</title>
     <description>George Hunter&#39;s Website
 </description>
-    <link>http://georgehunter.github.io/</link>
-    <atom:link href="http://georgehunter.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 Feb 2015 23:48:28 +0000</pubDate>
-    <lastBuildDate>Fri, 20 Feb 2015 23:48:28 +0000</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 21 Feb 2015 00:54:03 +0000</pubDate>
+    <lastBuildDate>Sat, 21 Feb 2015 00:54:03 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -17,10 +17,37 @@
 &lt;p&gt;Not too sure how this markdown lark works yet&lt;/p&gt;
 
 &lt;p&gt;Never mind, I’ve got it&lt;/p&gt;
+
+&lt;p&gt;I’m testing out a bit &lt;em&gt;more&lt;/em&gt; markdown&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is really cool&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;huzzah&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
-        <link>http://georgehunter.github.io/2015/02/20/starting-my-blog.html</link>
-        <guid isPermaLink="true">http://georgehunter.github.io/2015/02/20/starting-my-blog.html</guid>
+        <link>http://localhost:4000/2015/02/20/starting-my-blog.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/02/20/starting-my-blog.html</guid>
         
         
       </item>

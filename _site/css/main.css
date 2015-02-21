@@ -34,9 +34,7 @@ img {
   font-size: 2em; }
 
 .site-nav {
-  width: 70%;
-  text-align: right;
-  padding-top: 18px; }
+  text-align: right; }
 
 .nav-wrap {
   padding: 24px 12px;
@@ -46,7 +44,8 @@ a {
   text-decoration: none; }
 
 .nav__item {
-  display: inline-block; }
+  display: inline-block;
+  margin-left: 30px; }
 
 .banner {
   background: url("https://ununsplash.imgix.net/21/mac-glasses.JPG?q=75&fm=jpg&s=b071b2245118757fbfc6ff9f9dd9cb7c");
@@ -62,3 +61,6 @@ a {
   .portfolio img {
     border: 5px #ccc solid;
     height: 200px; }
+
+.section {
+  margin-bottom: 24px; }

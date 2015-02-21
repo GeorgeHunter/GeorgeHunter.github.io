@@ -76,9 +76,8 @@ img {
 }
 
 .site-nav {
-	width: 70%;
 	text-align: right;
-	padding-top: 18px;
+	// padding-top: 18px;
 }
 
 .nav-wrap {
@@ -92,6 +91,7 @@ img {
 
 .nav__item {
 	display: inline-block;
+	margin-left: 30px;
 }
 
 .banner {
@@ -112,3 +112,6 @@ img {
 	}
 }
 
+.section {
+	margin-bottom: $vertical;
+}

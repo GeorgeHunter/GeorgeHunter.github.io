@@ -1,0 +1,15 @@
+---
+title: Blog
+layout: default
+haka: blogogog]
+permalink: /blog/
+weight: 2
+---
+
+  {% for post in site.posts %}
+  	<a href="{{ post.url }}">{{ post.title }}</a>
+  	<p>{{ post.date | date: '%B %d, %Y' }}</p>
+  	<p>{{ post.tagline }}</p>
+  {% endfor %}
+
+{{ page.haka }}
