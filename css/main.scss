@@ -103,15 +103,25 @@ img {
 }
 
 .portfolio {
-	width: 33%;
-	float: left;
+	// width: 33%;
+	// float: left;
 	padding: $vertical/2;
 	img {
 		border: 5px #ccc solid;
 		height: 200px;
+		display: block;
 	}
 }
 
 .section {
 	margin-bottom: $vertical;
 }
+
+@media screen and (min-width: 930px){
+	.thirds {
+		width: 33%;
+		float: left;
+	}
+
+}
+
