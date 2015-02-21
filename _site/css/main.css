@@ -11,9 +11,14 @@ body {
 a {
   color: #3B3738; }
 
+.page-content a {
+  color: #C63D0F;
+  font-weight: bold; }
+
 img {
   max-width: 100%;
-  height: auto; }
+  height: auto;
+  margin-bottom: 24px; }
 
 .wrap {
   max-width: 960px;
@@ -29,7 +34,8 @@ img {
   font-size: .8em; }
 
 .center {
-  text-align: center; }
+  text-align: center;
+  display: block; }
 
 .site-title {
   width: 30%;
@@ -37,7 +43,9 @@ img {
   font-size: 2em; }
 
 .site-nav {
-  text-align: right; }
+  text-align: right;
+  line-height: 48px;
+  margin: 0; }
 
 .nav-wrap {
   padding: 24px 12px;
@@ -48,7 +56,8 @@ a {
 
 .nav__item {
   display: inline-block;
-  margin-left: 30px; }
+  margin-left: 30px;
+  font-size: 1.2em; }
 
 .banner {
   background: url("https://unsplash.imgix.net/1/macbook-air-all-faded-and-stuff.jpg?q=75&fm=jpg&s=52cb272e90a3b5e36104066cc9993d83");
@@ -65,6 +74,9 @@ a {
     height: 200px;
     display: block; }
 
+.portfolio__title {
+  font-size: 1.3em; }
+
 .section {
   margin-bottom: 48px; }
 
@@ -72,3 +84,6 @@ a {
   .thirds {
     width: 33%;
     float: left; } }
+.sub {
+  opacity: 0.7;
+  font-size: .9em; }

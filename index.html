@@ -38,18 +38,18 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 {% for item in site.data.items %}
 <div class="portfolio thirds section">
+     <p class="center portfolio__title">{{ item.name }}</p>
     <a href="{{ item.url }}">
-      <p class="center">{{ item.name }}</p>
-    <img src="{{ site.url }}/{{ item.image }}">
+    	<img src="{{ site.url }}/{{ item.image }}">
     </a>
-
+    <a class="center">Find out more</a>
 </div>
 {% endfor %}
 
 <section class="section">
 	<h3>Recent blog posts</h3>
 
-	{% for post in site.posts%}
-		<a href="{{ post.url }}">{{ post.title }}</a>
+	{% for post in site.posts limit:5 %}
+		<a href="{{ post.url }}">{{ post.title }} - <span class="sub">{{ post.date | date: '%B %d, %Y' }}</span></a>
 	{% endfor %}
 </section>

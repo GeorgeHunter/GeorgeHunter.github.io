@@ -10,14 +10,7 @@
 
     <a class="site-title" href="{{ site.url }}/">{{ site.title }}</a>
 
-    <!-- <nav class="site-nav">
-        {% for page in site.pages %}
-          {% if page.title %}
-            <a class="nav__item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-    </nav> -->
-
+    
     {% assign pages = site.pages | sort:"weight"  %}
     <ul class="site-nav">
       {% for p in pages %}
@@ -32,3 +25,5 @@
   </div>
 
 </header>
+
+
