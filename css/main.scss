@@ -103,6 +103,7 @@ img {
 	background: url('https://unsplash.imgix.net/1/macbook-air-all-faded-and-stuff.jpg?q=75&fm=jpg&s=52cb272e90a3b5e36104066cc9993d83');
 	background-size: cover;
 	background-position: 0 -160px;	
+	background-repeat: none;
 	width: 100%;
 	height: 300px;
 }
@@ -130,3 +131,6 @@ img {
 
 }
 
+// h3 {
+// 	color: $orange;
+// }
