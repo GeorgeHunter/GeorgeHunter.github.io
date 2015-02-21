@@ -33,6 +33,9 @@ img {
   padding: 5px 0;
   font-size: .8em; }
 
+.header {
+  border-top: 5px solid #C63D0F; }
+
 .center {
   text-align: center;
   display: block; }
