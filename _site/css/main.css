@@ -58,7 +58,7 @@ a {
   height: 300px; }
 
 .portfolio {
-  padding: 12px; }
+  padding: 0 12px; }
   .portfolio img {
     border: 5px #ccc solid;
     height: 200px;
