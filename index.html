@@ -50,6 +50,6 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 	<h3>Recent blog posts</h3>
 
 	{% for post in site.posts limit:5 %}
-		<a href="{{ post.url }}">{{ post.title }} - <span class="sub">{{ post.date | date: '%B %d, %Y' }}</span></a>
+		<p><a href="{{ post.url }}">{{ post.title }} - <span class="sub">{{ post.date | date: '%B %d, %Y' }}</span></a></p>
 	{% endfor %}
 </section>

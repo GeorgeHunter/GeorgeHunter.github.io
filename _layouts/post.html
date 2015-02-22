@@ -12,4 +12,14 @@ layout: default
     {{ content }}
   </article>
 
+  <section>
+  	<h3>Related Posts</h3>
+  	{% for post in site.posts %}
+  		{% if post.category == "News" %}
+	  		<p>{{ post.title }}</p>	
+  		{% endif %}
+  	{% endfor %}
+  </section>
+  {{ page.title }}
+
 </div>

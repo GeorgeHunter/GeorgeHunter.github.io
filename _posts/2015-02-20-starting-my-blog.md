@@ -2,6 +2,7 @@
 title: My Blog
 layout: post
 tagline: howdy
+category: News
 ---
 
 ## Here is my blog
