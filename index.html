@@ -8,41 +8,53 @@ layout: default
 <h2>Front End Architecture</h2>
 
 <section class="section">
-<p>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-</p>
+	<p>
+		I am a front end developer and designer, working on a variety of projects from websites to mobile applications. My main focus is building websites, taking responsibility for the vast majority of the development. This means building the front end in a scalable and performance orientated way: recreating the design so the website is as performant as possible.
+	</p>
+</section>
+
+<section class="section cf">
+	<div class="thirds">
+		<img class="media__img" src="images/icons/basic_gear.svg">
+		<div class="media__text">
+			<h3>Front End Development</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		   	</p>
+	 	</div>
+	</div>
+	<div class="thirds">
+		<img class="media__img" src="images/icons/pencil_rule.svg">
+		<div class="media__text">
+			<h3>UX Design</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			<p></p>
+	 	</div>
+	</div>
+	<div class="thirds">
+		<img class="media__img" src="images/icons/basic_smartphone.svg">
+		<div class="media__text">	
+			<h3>Application Development</h3>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			</p>
+	 	</div>
+	</div>
 </section>
 
 <h3>Some of my recent work</h3>
 
 {% for item in site.data.items %}
 <div class="portfolio thirds section">
-     <p class="center portfolio__title">{{ item.name }}</p>
+    <p class="portfolio__title">{{ item.name }}</p>
     <a href="{{ item.url }}">
     	<img src="{{ site.url }}/{{ item.image }}">
     </a>
-    <a class="center">Find out more</a>
+    <a class="block">Find out more</a>
 </div>
 {% endfor %}
 
