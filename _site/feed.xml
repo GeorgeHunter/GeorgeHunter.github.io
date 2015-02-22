@@ -6,9 +6,28 @@
 </description>
     <link>http://georgehunter.github.io/</link>
     <atom:link href="http://georgehunter.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 22 Feb 2015 14:17:32 +0000</pubDate>
-    <lastBuildDate>Sun, 22 Feb 2015 14:17:32 +0000</lastBuildDate>
+    <pubDate>Sun, 22 Feb 2015 17:41:44 +0000</pubDate>
+    <lastBuildDate>Sun, 22 Feb 2015 17:41:44 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Up and Running</title>
+        <description>&lt;h1 id=&quot;everything-is-now-up-and-running&quot;&gt;Everything is now up and running&lt;/h1&gt;
+
+&lt;p&gt;So how was the whole process? Well it was relatively painfree. Setting everything up was very straightforward. You just need a github repo with a specific name (username.github.io), and you push whatever site you want to that. So for the last couple of months I just had a holding page, a single index.html saying something was coming soon. Really it was a lie, I never planned on putting something up there (or more accurately, had no idea what I should put there).&lt;/p&gt;
+
+&lt;p&gt;I made an attempt at setting up a Jekyll site and all I really achieved was breaking my sass plugin. Seems the listen ruby gem doesn’t play nice with it. But then, about a week ago I got a Macbook Air and given how easily ruby related stuff seems to work with it I thought I’d give Jekyll another go. Minutes later I was up and running.&lt;/p&gt;
+
+&lt;p&gt;So now I was curious, what could I actually do. At this point I’d usually make up a company or some client and do a site for that. But I figured this time I’d so something slightly different, and shock horror, actually make a personal site. This turned out to be quite a good idea, because instead of making up content or imagining client meetings I just started building. &lt;/p&gt;
+
+&lt;p&gt;Coming into this I had no experience with either markdown or the liquid templating system but both were straightforward enough to pick up. Markdown is beautiful in its simplicity and I was pleasantly surprised with liquid. I’m coming from a wordpress background so it was fun to work with something so lightweight.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
+        <link>http://georgehunter.github.io/2015/02/22/up-and-running.html</link>
+        <guid isPermaLink="true">http://georgehunter.github.io/2015/02/22/up-and-running.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Getting Jekyll Running</title>
