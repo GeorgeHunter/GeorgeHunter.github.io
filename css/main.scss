@@ -112,15 +112,43 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .site-title {
-	width: 30%;
 	float: left;
 	font-size: 2em;
+	display: block;
+	width: 100%;
 }
 
 .site-nav {
 	text-align: right;
 	line-height: 48px;
 	margin: 0;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.nav__item {
+	list-style: none;
+	display: inline-block;
+	margin: 0 30px;
+}
+
+@media screen and (min-width: 730px) {
+	.site-title {
+		width: 30%;
+		float: left;
+	}
+	.site-nav {
+		text-align: right;
+	}
+	.nav__item {
+	margin: 0 0 0 30px;
+	font-size: 1.2em;
+	}
+}
+
+ul {
+	padding: 0;
 }
 
 .nav-wrap {
@@ -129,13 +157,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 	a{
 	text-decoration: none;
-}
-
-
-.nav__item {
-	display: inline-block;
-	margin-left: 30px;
-	font-size: 1.2em;
 }
 
 .banner {
