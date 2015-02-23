@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 weight: 1
+image: action.png
 ---
 
 I'm a front end developer and designer working for stellasoft in Frome, Somerset. Day to day I'm responsible for building and maintaining the front end of a variety of websites and applications. I'm responsible for the development of websites and apps, as well as a large part of the UX design.
