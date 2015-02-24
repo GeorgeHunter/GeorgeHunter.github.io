@@ -8,8 +8,10 @@ layout: default
   </header>
 
 {% if page.image %}
-	<img src="{{ site.url }}/images/{{ page.image }}">
+	<div class="banner" style="background: url({{ site.url }}/images/{{ page.image }}); background-size: cover"></div>
 {% endif %}
+
+	
 
   <article class="post-content">
     {{ content }}
