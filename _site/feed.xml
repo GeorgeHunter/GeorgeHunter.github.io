@@ -6,9 +6,30 @@
 </description>
     <link>http://georgehunter.github.io/</link>
     <atom:link href="http://georgehunter.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Feb 2015 22:17:36 +0000</pubDate>
-    <lastBuildDate>Tue, 24 Feb 2015 22:17:36 +0000</lastBuildDate>
+    <pubDate>Wed, 25 Feb 2015 23:01:58 +0000</pubDate>
+    <lastBuildDate>Wed, 25 Feb 2015 23:01:58 +0000</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Starting a New Project</title>
+        <description>&lt;p&gt;I always get a warm, fuzzy feeling when I’m starting a new project. You have a clean, simple code base and you promise yourself &lt;em&gt;this&lt;/em&gt; time you are going to keep it that way. I love setting everything up, installing dependancies, creating a directory structure and making that initial commit.&lt;/p&gt;
+
+&lt;p&gt;When I was first setting out that feeling evaporated almost immediately. Straight away I was googling solutions to problems, wondering why something that I thought should be so simple could prove to be quite so difficult. My code was quickly filled with stuff that was there &lt;em&gt;just so it worked&lt;/em&gt;. Magic numbers everywhere, very specific and limited CSS rules and bloated markup. It wasn’t how I wanted to write my code but I didn’t know enough to do anything else. When I found a solution I had to take it, and I didn’t fully understand a lot of what I was doing.&lt;/p&gt;
+
+&lt;p&gt;I like to think things are a bit different now. There’s still a huge amount for me to learn, and I’m slowly working through it, but I’m starting to write more and more code that I’m &lt;em&gt;proud&lt;/em&gt; of. More often I find I can get a simple solution to a problem, using a couple of lines of CSS to do something that before might have taken 15 or doing something that just seems more robust. Layouts that won’t fall down if I want to make subtle changes, or a client adds a more text than I anticipated.&lt;/p&gt;
+
+&lt;p&gt;A big part of this is preventing specificity problems. Using classes to style instead of CSS selector dependent on markup layout, which I can’t overwrite without an !important, or one-upping the previous selector. Another, related part, is making the CSS more modular, more scalable. A huge inspiration in this has been &lt;a href=&quot;http://csswizzardry.com/&quot;&gt;Harry Roberts&lt;/a&gt; who’s written and spoken extensively on how to keep CSS sane and manageable on large projects. I’m not working on projects of the scale he is used to but the principles also transfer beautifully to small projects, even if there’s just one author.&lt;/p&gt;
+
+&lt;p&gt;Another big influence has been &lt;a href=&quot;http://www.stubbornella.org&quot;&gt;Nicole Sullivan&lt;/a&gt;, of OOCSS fame. Object oriented CSS is about seperating structure from skin and making your CSS rules far more reusable for doing so. You end up with different classes which you can interchange to create new things, without always adding new rules. It took me longer to get my head around this, I saw having a lot of classes in my markup as untidy, but OOCSS is so powerful that once I convinced my self to try it, no obligation, I was soon hooked.&lt;/p&gt;
+
+&lt;p&gt;So back to where I started, that warm fuzzy feeling from a new project. I still love, but I’m also starting to love the codebases I work with day in and day out. Instead of just looking forward to starting an new project so I can try and do things better, I enjoy working with what I’ve got, improving it and building off it.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Feb 2015 00:00:00 +0000</pubDate>
+        <link>http://georgehunter.github.io/2015/02/25/starting-a-new-project.html</link>
+        <guid isPermaLink="true">http://georgehunter.github.io/2015/02/25/starting-a-new-project.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Up and Running</title>
@@ -16,7 +37,7 @@
 
 &lt;p&gt;So how was the whole process? Well it was relatively painfree. Setting everything up was very straightforward. You just need a github repo with a specific name (username.github.io), and you push whatever site you want to that. So for the last couple of months I just had a holding page, a single index.html saying something was coming soon. Really it was a lie, I never planned on putting something up there (or more accurately, had no idea what I should put there).&lt;/p&gt;
 
-&lt;p&gt;I made an attempt at setting up a Jekyll site and all I really achieved was breaking my sass plugin. Seems the listen ruby gem doesn’t play nice with it. But then, about a week ago I got a Macbook Air and given how easily ruby related stuff seems to work with it I thought I’d give Jekyll another go. Minutes later I was up and running.&lt;/p&gt;
+&lt;p&gt;I made an attempt at setting up a Jekyll site and all I really achieved was breaking my sass gem. Seems the listen ruby gem doesn’t play nice with it. But then, about a week ago I got a Macbook Air and given how easily ruby related stuff seems to work with it I thought I’d give Jekyll another go. Minutes later I was up and running.&lt;/p&gt;
 
 &lt;p&gt;So now I was curious, what could I actually do. At this point I’d usually make up a company or some client and do a site for that. But I figured this time I’d so something slightly different, and shock horror, actually make a personal site. This turned out to be quite a good idea, because instead of making up content or imagining client meetings I just started building. &lt;/p&gt;
 
@@ -26,65 +47,6 @@
         <link>http://georgehunter.github.io/2015/02/22/up-and-running.html</link>
         <guid isPermaLink="true">http://georgehunter.github.io/2015/02/22/up-and-running.html</guid>
         
-        
-      </item>
-    
-      <item>
-        <title>Getting Jekyll Running</title>
-        <description>
-</description>
-        <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
-        <link>http://georgehunter.github.io/news/2015/02/22/getting-jekyll-running.html</link>
-        <guid isPermaLink="true">http://georgehunter.github.io/news/2015/02/22/getting-jekyll-running.html</guid>
-        
-        
-        <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>My Blog</title>
-        <description>&lt;h2 id=&quot;here-is-my-blog&quot;&gt;Here is my blog&lt;/h2&gt;
-
-&lt;p&gt;Not too sure how this markdown lark works yet&lt;/p&gt;
-
-&lt;p&gt;Never mind, I’ve got it&lt;/p&gt;
-
-&lt;p&gt;I’m testing out a bit &lt;em&gt;more&lt;/em&gt; markdown&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is really cool&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;huzzah&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://georgehunter.github.io/images/action.png&quot; alt=&quot;alt&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
-        <link>http://georgehunter.github.io/news/2015/02/20/starting-my-blog.html</link>
-        <guid isPermaLink="true">http://georgehunter.github.io/news/2015/02/20/starting-my-blog.html</guid>
-        
-        
-        <category>news</category>
         
       </item>
     
