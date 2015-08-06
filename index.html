@@ -4,8 +4,7 @@ layout: default
 
 <div class="banner"></div>
 
-<h1>George Hunter</h1>
-<h2>Front End Architecture</h2>
+<h1>George Hunter <span class="highlight">Front End Web Design</span></h1>
 
 <section class="section test">
 	<p>
@@ -13,14 +12,13 @@ layout: default
 	</p>
 </section>
 
-
+<div class="cf">
 	<div class="thirds mb cf">
 		<img class="media__img" src="images/icons/basic_gear.svg">
 		<div class="media__text">
 			<h3>Front End Development</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				I build the front end of websites and apps - responsible for everything from reporducing the design to managing performance and scalability
 		   	</p>
 	 	</div>
 	</div>
@@ -29,36 +27,36 @@ layout: default
 		<div class="media__text">
 			<h3>UX Design</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			<p></p>
+				I'm responsible for making sure that designs are both appealing and user friendly, whether that is driving sales or improving user experience
+			</p>
 	 	</div>
 	</div>
 	<div class="thirds mb cf">
 		<img class="media__img" src="images/icons/basic_smartphone.svg">
-		<div class="media__text">	
+		<div class="media__text">
 			<h3>Application Development</h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				I work on hybrid mobile applications - with input on UX design and responsible for view development
 			</p>
 	 	</div>
 	</div>
-    <h3>Coming Soon...</h3>
-    <a href="#" style="margin-bottom: 30px; display: block">UI-Toolkit</a>
+</div>
 
 
 <h3>Some of my recent work</h3>
 
-{% for item in site.data.items %}
-<div class="portfolio thirds section">
-    <p class="portfolio__title">{{ item.name }}</p>
-    <a href="{{ item.url }}">
-    	<img src="{{ site.url }}/{{ item.image }}">
-    </a>
-    <a class="block">Find out more</a>
+<div class="row">
+	{% for item in site.data.items %}
+		<div class="portfolio thirds section">
+			<p class="portfolio__title">{{ item.name }}</p>
+			<a href="{{ item.url }}">
+				<img src="{{ site.url }}/{{ item.image }}">
+			</a>
+			<a class="block">Find out more</a>
+		</div>
+	{% endfor %}
 </div>
-{% endfor %}
+
 
 <section class="section">
 	<h3>Recent blog posts</h3>

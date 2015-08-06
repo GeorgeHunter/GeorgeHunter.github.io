@@ -3,7 +3,7 @@ title: Up and Running
 layout: post
 ---
 
-#Everything is now up and running
+Everything is now up and running...
 
 So how was the whole process? Well it was relatively painfree. Setting everything up was very straightforward. You just need a github repo with a specific name (username.github.io), and you push whatever site you want to that. So for the last couple of months I just had a holding page, a single index.html saying something was coming soon. Really it was a lie, I never planned on putting something up there (or more accurately, had no idea what I should put there).
 

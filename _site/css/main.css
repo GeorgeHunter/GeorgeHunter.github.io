@@ -1,11 +1,12 @@
-.cf:before,
-.cf:after {
+.cf:before, .row:before,
+.cf:after,
+.row:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */ }
 
-.cf:after {
+.cf:after, .row:after {
   clear: both; }
 
 /* .cf {
@@ -65,6 +66,9 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 2em;
   display: block;
   width: 100%; }
+
+.title--section {
+  font-size: 1.8em; }
 
 .site-nav {
   line-height: 48px;
@@ -144,3 +148,12 @@ a {
 
 .mb {
   margin-bottom: 24px; }
+
+.row .section:first-child {
+  margin-left: -24px; }
+
+.row .section:last-child {
+  margin-right: -24px; }
+
+.highlight {
+  color: #C63D0F; }
