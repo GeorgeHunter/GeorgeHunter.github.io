@@ -186,6 +186,9 @@ ul {
 		border: 5px #ccc solid;
 		height: 200px;
 		display: inline-block;
+	  	&:hover {
+		  border-color: $orange;
+		}
 	}
 }
 

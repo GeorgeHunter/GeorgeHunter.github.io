@@ -121,6 +121,8 @@ a {
     border: 5px #ccc solid;
     height: 200px;
     display: inline-block; }
+    .portfolio img:hover {
+      border-color: #C63D0F; }
 
 .portfolio__title {
   font-size: 1.3em; }
