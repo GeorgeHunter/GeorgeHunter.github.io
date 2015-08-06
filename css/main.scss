@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .site-nav {
-	line-height: 48px;
+	//line-height: 48px;
 	margin: 0;
 	display: block;
 	width: 100%;
@@ -133,6 +133,12 @@ h1, h2, h3, h4, h5, h6, p {
 	list-style: none;
 	display: inline-block;
 	margin-right: 30px;
+  	padding: 10px 0;
+  	&:hover {
+	  padding-bottom: 6px;
+	  border-bottom: 4px solid $orange;
+	  position: relative;
+	}
 }
 
 @media screen and (min-width: 730px) {
