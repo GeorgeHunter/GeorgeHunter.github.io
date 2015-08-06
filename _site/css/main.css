@@ -155,5 +155,43 @@ a {
 .row .section:last-child {
   margin-right: -24px; }
 
+.btn {
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 10px 5px;
+  border: 0;
+  cursor: pointer; }
+
 .highlight {
   color: #C63D0F; }
+
+.btn--primary {
+  background: #C63D0F;
+  color: #fff; }
+  .btn--primary:hover {
+    background: #972e0b; }
+
+.btn--form {
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 300px; }
+
+.input {
+  font-size: 1.2em;
+  padding: 10px 5px;
+  margin-bottom: 40px;
+  width: 100%;
+  max-width: 300px;
+  border: none;
+  display: block; }
+  .input:focus {
+    outline: none;
+    border-bottom: 2px solid #C63D0F; }
+
+.text-input {
+  border: none;
+  border-bottom: 2px solid #777; }
+
+.textarea {
+  border-top: 2px solid #777;
+  border-bottom: 2px solid #777; }

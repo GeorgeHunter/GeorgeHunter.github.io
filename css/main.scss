@@ -239,8 +239,54 @@ ul {
   margin-right: -24px;
 }
 
+.btn {
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 10px 5px;
+  border: 0;
+  cursor: pointer;
+}
+
 // Skin
 
 .highlight {
   color: $orange;
+}
+
+.btn--primary {
+  background: $orange;
+  color: #fff;
+  &:hover {
+	background: darken($orange,10%);
+  }
+}
+
+.btn--form {
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.input {
+  font-size: 1.2em;
+  padding: 10px 5px;
+  margin-bottom: 40px;
+  width: 100%;
+  max-width: 300px;
+  border: none;
+  display: block;
+  &:focus {
+	outline: none;
+	border-bottom: 2px solid $orange;
+  }
+}
+
+.text-input {
+  border: none;
+  border-bottom: 2px solid #777;
+}
+
+.textarea {
+  border-top: 2px solid #777;
+  border-bottom: 2px solid #777;
 }
