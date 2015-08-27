@@ -200,7 +200,7 @@ a {
   border-bottom: 2px solid #777; }
 
 .textarea {
-  border-top: 2px solid #777;
+  border-top: 2px solid red;
   border-bottom: 2px solid #777; }
 
 .blog__preview {
