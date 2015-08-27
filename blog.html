@@ -6,8 +6,11 @@ weight: 2
 ---
 
   {% for post in site.posts %}
-  	<a class="title--section" href="{{ post.url }}">{{ post.title }}</a>
-  	<p>{{ post.date | date: '%B %d, %Y' }}</p>
-	{{ post.content | striphtml | truncatewords:60}}
-  	<p>{{ post.tagline }}</p>
+  	<div class="blog__preview">
+		<a class="title--section" href="{{ post.url }}">{{ post.title }}</a>
+		<p>{{ post.date | date: '%B %d, %Y' }}</p>
+		{{ post.content | striphtml | truncatewords:60}}
+		<p>{{ post.tagline }}</p>
+		<a class="btn btn--primary btn--blog" href="{{ post.url }}">Click Here to Read More</a>
+	</div>
   {% endfor %}

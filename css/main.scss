@@ -169,7 +169,7 @@ ul {
 
 .banner {
 	// background: url('https://ununsplash.imgix.net/21/mac-glasses.JPG?q=75&fm=jpg&s=b071b2245118757fbfc6ff9f9dd9cb7c');
-	background: url('https://unsplash.imgix.net/1/macbook-air-all-faded-and-stuff.jpg?q=75&fm=jpg&s=52cb272e90a3b5e36104066cc9993d83');
+	background: url('../images/hp-banner.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
@@ -208,11 +208,11 @@ ul {
 
 }
 
-@media screen and (min-width: 700px) {
-	.banner {
-		background-position: 0 -160px;
-	}
-}
+//@media screen and (min-width: 700px) {
+//	.banner {
+//		background-position: 0 -160px;
+//	}
+//}
 
 .sub {
     color: #666;
@@ -264,7 +264,7 @@ ul {
 
 .btn--primary {
   background: $orange;
-  color: #fff;
+  color: #fff !important;
   &:hover {
 	background: darken($orange,10%);
   }
@@ -274,6 +274,11 @@ ul {
   margin-bottom: 30px;
   width: 100%;
   max-width: 300px;
+}
+
+.btn--blog {
+  font-size: .9em;
+  padding: 10px 20px;
 }
 
 .input {
@@ -298,4 +303,14 @@ ul {
 .textarea {
   border-top: 2px solid #777;
   border-bottom: 2px solid #777;
+}
+
+.blog__preview {
+  //margin-bottom: 60px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+  &:last-child {
+	border-bottom: none;
+  }
 }
