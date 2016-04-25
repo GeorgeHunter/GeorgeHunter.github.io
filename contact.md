@@ -2,7 +2,7 @@
 title: Contact
 layout: default
 permalink: /contact/
-weight: 3
+weight: 4
 ---
 <form role="form" class="col-md-6" action="https://getsimpleform.com/messages?form_api_token=1cf260bb638e0966e21f4b2e2fb0815c" method="post">
     <div class="form-group">

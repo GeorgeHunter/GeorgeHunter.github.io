@@ -4,11 +4,11 @@
     <title>George Hunter</title>
     <description>George Hunter&#39;s Website
 </description>
-    <link>http://georgehunter.github.io/</link>
-    <atom:link href="http://georgehunter.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 30 Aug 2015 16:40:39 +0100</pubDate>
-    <lastBuildDate>Sun, 30 Aug 2015 16:40:39 +0100</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 25 Apr 2016 22:44:38 +0100</pubDate>
+    <lastBuildDate>Mon, 25 Apr 2016 22:44:38 +0100</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>Starting a New Project</title>
@@ -25,8 +25,8 @@
 &lt;p&gt;So back to where I started, that warm fuzzy feeling from a new project. I still love, but I’m also starting to love the code bases I work with day in and day out. Instead of just looking forward to starting an new project so I can try and do things better, I enjoy working with what I’ve got, improving it and building off it.&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Feb 2015 00:00:00 +0000</pubDate>
-        <link>http://georgehunter.github.io/2015/02/25/starting-a-new-project.html</link>
-        <guid isPermaLink="true">http://georgehunter.github.io/2015/02/25/starting-a-new-project.html</guid>
+        <link>http://localhost:4000/2015/02/25/starting-a-new-project.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/02/25/starting-a-new-project.html</guid>
         
         
       </item>
@@ -44,8 +44,8 @@
 &lt;p&gt;Coming into this I had no experience with either markdown or the liquid templating system but both were straightforward enough to pick up. Markdown is beautiful in its simplicity and I was pleasantly surprised with liquid. I’m coming from a wordpress background so it was fun to work with something so lightweight.&lt;/p&gt;
 </description>
         <pubDate>Sun, 22 Feb 2015 00:00:00 +0000</pubDate>
-        <link>http://georgehunter.github.io/2015/02/22/up-and-running.html</link>
-        <guid isPermaLink="true">http://georgehunter.github.io/2015/02/22/up-and-running.html</guid>
+        <link>http://localhost:4000/2015/02/22/up-and-running.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/02/22/up-and-running.html</guid>
         
         
       </item>
